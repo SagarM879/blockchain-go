@@ -10,7 +10,7 @@
 We have three companies whose handles the same package (asset) through their supply chains and, all of those agreed to comply with terms and rules
 to handle that asset.
 
-The challenge is on ensuring the integrity of these package through all the supply chain process, since it's hard to tell accuaratelly who's the responsible party real time, but we have a solution!
+The challenge is on ensuring the integrity of these package through all the supply chain process, since it's hard to tell accuratelly who's the responsible party at real time, but we have a solution!
 
 ![](/docs/intro.png)
 
@@ -18,11 +18,11 @@ First we create a new package for transport and eventual transfers:
 
 ![](/docs/creatingAsset.png)
 
-So we have a "smart contract" adhered by all the participants companies (Industry, Shipping Company and the Customer):
+So getting hand over a "smart contract" adhered by all the participants companies (Industry, Shipping Company and the Customer) we apply the rules:
 
 ![](/docs/smartcontract.png)
 
-With simulated temperature sensors in our virtual package (We could - and did so -  demos with real devices), we're publishing payloads to the subscriber application (You're watching the demo through it ;):
+With simulated temperature sensors in our virtual package (We could - and did so - run it on real devices), we're publishing payloads to the subscriber application (You're watching the demo through it ):
 
 ![](/docs/payloads.png)
 
