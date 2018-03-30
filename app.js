@@ -31,7 +31,7 @@ app.post('/request', function(req, res) {
 setTimeout(function() {
     let deploy = 0;
     app.get('/blockchain', function(req, res) {
-        let blockchain = require('./rest/listenner').blockdata();
+        let blockchain = require('./rest/listener').blockdata();
         if (deploy < 1) {
             console.log(`isInit ${deploy}`);
             blockchain.isInit = true;
@@ -40,7 +40,7 @@ setTimeout(function() {
         res.send(blockchain);
     });
 
-    let genesis = require('./rest/listenner').deployed();
+    let genesis = require('./rest/listener').deployed();
     app.get('/genesis', function(req, res) {
         genesis.isDeploy = true;
         res.send(genesis);
